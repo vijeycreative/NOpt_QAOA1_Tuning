@@ -69,7 +69,7 @@ This folder contains the main algorithmic implementations and supporting utiliti
     * Exact **2-local Ising with external fields** via Gurobi.
     * **SDP-based** relaxation with random hyperplane rounding.
 * **`fqs.py`**: Fast cubic and quartic polynomial root solvers used as a helper utility in the parameter-optimization pipeline.
-    * *Important attribution*: This file was not developed by V. Vijendran. It is derived from the third-party repository: [NKrvasica, fqs: Fast Quartic and Cubic Solver](https://github.com/NKrvasica/fqs).
+    * *Important attribution*: This file was not developed by V. Vijendran. It is derived from the third-party repository: [NKrvavica, fqs: Fast Quartic and Cubic Solver](https://github.com/NKrvavica/fqs).
     * In this project, `fqs.py` is used as a supporting utility for solving quartic equations that arise in the analytic or semi-analytic reduction of the level-1 QAOA optimization problem.
 * **`Subdivision_Alg_Test.ipynb`**: A verification notebook for the subdivision algorithm discussed in the paper.
 
@@ -132,7 +132,7 @@ This repository includes the file `code/fqs.py`, which is **third-party code** a
 
 **Original source:**
 > NKrvavica, *fqs: Fast Quartic and Cubic Solver*
-> https://github.com/NKrvasica/fqs
+> https://github.com/NKrvavica/fqs
 
 Please retain this attribution if redistributing or reusing that file.
 
